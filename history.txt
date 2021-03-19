@@ -1,0 +1,151 @@
+    1  clear
+    2  ls
+    3  cd django-on-docker/
+    4  ls
+    5  ls -la
+    6  cd app
+    7  ls
+    8  python manage.py runserver
+    9  clear
+   10  ls -la
+   11  source ./env/Scripts/activate
+   12  source env/Scripts/activate
+   13  cd env
+   14  ls
+   15  cd bin
+   16  ls
+   17  cd ..
+   18  source ./env/bin/activate
+   19  ls
+   20  clear
+   21  python manage.py runserver 0.0.0.0:8000
+   22  sudo python manage.py runserver 0.0.0.0:8000
+   23  ls
+   24  cd hello_django/
+   25  ls
+   26  nano settings.py
+   27  cd ..
+   28  ls
+   29  cd ..
+   30  ls -la
+   31  nano .env.dev 
+   32  sudo su
+   33  ls -la
+   34  docker ps
+   35  sudo docker ps
+   36  ls
+   37  cd app
+   38  ls
+   39  cd he
+   40  cd hello_django/
+   41  ls
+   42  nano urls.py 
+   43  ls -la
+   44  cd ..
+   45  ls
+   46  sudo python manage.py startapp web
+   47  python manage.py startapp web
+   48  ls -la
+   49  cd ..
+   50  ls
+   51  docker-compose down
+   52  sudo docker-compose down
+   53  ls
+   54  cd app
+   55  ls
+   56  python manage.py startapp web
+   57  cd hello_django/
+   58  ls
+   59  nano settings.py 
+   60  cd ..
+   61  ls
+   62  python manage.py startapp web
+   63  ls
+   64  tree
+   65  cd web/
+   66  ls
+   67  nano views.py
+   68  nano urls.py
+   69  ls
+   70  cd ..
+   71  ls
+   72  cd hello_django/
+   73  ls
+   74  nano urls.py 
+   75  ls
+   76  nano settings.py 
+   77  cd ..
+   78  ls
+   79  cd ..
+   80  ls
+   81  sudo docker-compose up -d
+   82  ls
+   83  cd aapp
+   84  cd app
+   85  ls
+   86  cd hello_django/
+   87  ls
+   88  nano settings.py 
+   89  cd ..
+   90  ls
+   91  cd ..
+   92  ls
+   93  sudo docker-compose build
+   94  sudo docker-compose up -d
+   95  docker-compose logs -f
+   96  sudo docker-compose logs -f
+   97  ls
+   98  cd app
+   99  ls
+  100  cd hello_django/
+  101  ls
+  102  nano urls.py 
+  103  ls -l
+  104  nano urls.py 
+  105  nano settings.py 
+  106  ls -l
+  107  cd ..
+  108  ls
+  109  cd web
+  110  ls
+  111  nano admin.py 
+  112  nano apps.py 
+  113  cd ..
+  114  ls
+  115  sudo docker-compose up -d
+  116  docker-compose logs -f
+  117  sudo docker-compose logs -f
+  118  ls
+  119  cd app
+  120  ls
+  121  cd hello_django/
+  122  ls
+  123  nano urls.py 
+  124  cd ..
+  125  ls
+  126  sudo docker-compose build
+  127  docker-compose ps
+  128  sudo docker-compose ps
+  129  docker-compose up -d
+  130  sudo docker-compose up -d
+  131  curl localhost
+  132  curl localhost:8000
+  133  docker-compose logs -f
+  134  sudo docker-compose logs -f
+  135  ls
+  136  cd app
+  137  ls
+  138  cd web
+  139  ls
+  140  nano urls.py 
+  141  ls
+  142  nano views.py 
+  143  cd ..
+  144  ls
+  145  sudo docker-compose build
+  146  sudo docker-compose up -d
+  147  sudo docker-compose log -f
+  148  docker-compose logs -f
+  149  sudo docker-compose logs -f
+  150  history
+  151  history > history.txt
